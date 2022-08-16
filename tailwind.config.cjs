@@ -9,6 +9,11 @@ module.exports = {
                 heading: ["Hind Madurai", ...defaultTheme.fontFamily.sans],
                 sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                brand: {
+                    DEFAULT: "#FFD600",
+                },
+            },
         },
     },
     plugins: [],
