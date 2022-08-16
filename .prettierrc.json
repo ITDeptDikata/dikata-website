@@ -1,0 +1,6 @@
+{
+    "printWidth": 85,
+    "tabWidth": 4,
+    "arrowParens": "avoid",
+    "singleAttributePerLine": true
+}
