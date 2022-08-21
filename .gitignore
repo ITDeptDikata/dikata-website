@@ -26,7 +26,3 @@ dist-ssr
 # Local dev
 src/pages/dev.*
 **/*.dev.*
-
-# Env
-.env
-.env.*
