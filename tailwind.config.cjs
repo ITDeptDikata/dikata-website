@@ -8,6 +8,7 @@ module.exports = {
             fontFamily: {
                 heading: ["Hind Madurai", ...defaultTheme.fontFamily.sans],
                 sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+                inter: ["Inter", ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 brand: {
