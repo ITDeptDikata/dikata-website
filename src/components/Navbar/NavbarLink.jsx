@@ -14,7 +14,7 @@ import { NavLink } from "react-router-dom";
  */
 const NavbarLink = ({ children, href }) => {
     return (
-        <li className="flex list-none items-center justify-center bg-white py-4 font-sans text-4xl font-extrabold">
+        <li className="flex list-none items-center justify-center py-4 font-sans text-4xl font-extrabold">
             <NavLink
                 className={({ isActive }) => (isActive ? "text-brand" : "")}
                 to={href}

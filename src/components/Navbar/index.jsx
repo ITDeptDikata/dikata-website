@@ -41,7 +41,7 @@ const Navbar = ({ links }) => {
     return (
         <nav
             className={
-                "sticky top-0 overflow-hidden transition-all [transition-duration:500ms]"
+                "sticky top-0 z-50 overflow-hidden bg-white transition-all [transition-duration:500ms]"
             }
             style={{ height }}
         >

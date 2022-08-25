@@ -6,7 +6,7 @@ const NavbarMenu = forwardRef(({ onDikataIconClick, onBurgerClick }, ref) => {
     return (
         <ul
             ref={ref}
-            className="flex h-[3.625rem] select-none list-none items-center justify-between bg-white px-7"
+            className="flex h-[3.625rem] select-none list-none items-center justify-between px-7"
         >
             <li
                 className="cursor-pointer"
