@@ -5,7 +5,7 @@ import HomeHero from "./HomeHero";
 
 const Home = () => {
     return (
-        <main>
+        <main className="overflow-hidden">
             <section className="from-yellow-to-white relative bg-gradient-to-b">
                 <Wave className="absolute -top-20 -right-20 max-h-44 w-full rotate-180" />
 
