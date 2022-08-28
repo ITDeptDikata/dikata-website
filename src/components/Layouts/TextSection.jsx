@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 /**
  * Use this for a section with heading and text (e.g. Tentang Kami, Visi Kami, dst.)
  */
@@ -8,4 +10,4 @@ const TextSection = ({ children, title }) => (
     </section>
 );
 
-export default TextSection;
+export default memo(TextSection);
