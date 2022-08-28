@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 /**
  *
  * @param {import("react").SVGProps} props
@@ -46,4 +48,4 @@ const Wave = ({ ...props }) => {
     );
 };
 
-export default Wave;
+export default memo(Wave);
