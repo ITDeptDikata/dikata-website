@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 const WelcomeCard = () => (
     <h3 className="w-max  bg-white px-2 py-1 font-heading text-sm font-medium shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
         welcome to our official website!
@@ -26,4 +28,4 @@ const HomeHero = () => (
     </header>
 );
 
-export default HomeHero;
+export default memo(HomeHero);
