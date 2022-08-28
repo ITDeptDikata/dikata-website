@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from "react";
+import { memo, useCallback, useRef, useState } from "react";
 import NavbarDropdown from "./NavbarDropdown";
 import NavbarMenu from "./NavbarMenu";
 
@@ -17,26 +17,21 @@ const Navbar = ({ links }) => {
     const { current: menu } = menuRef;
     const { current: dropdown } = dropdownRef;
 
-    const height = useMemo(() => {
-        if (menu && dropdown) {
-            const menuH = parseInt(getComputedStyle(menu).height);
-            const dropdownH = parseInt(getComputedStyle(dropdown).height);
+    // REFAC this isn't the nicest way to set the starting height since we need
+    // to change this + the height in NavbarMenu everytime we want to
+    // change the initial height
+    let height = "3.625rem";
+    if (menu && dropdown) {
+        const menuH = parseInt(getComputedStyle(menu).height);
+        const dropdownH = parseInt(getComputedStyle(dropdown).height);
 
-            return isOpen ? `${menuH + dropdownH}px` : `${menuH}px`;
-        }
-
-        // REFAC this isn't the nicest way to set the starting height since we need
-        // to change this + the height in NavbarMenu everytime we want to
-        // change the initial height
-        return "3.625rem";
-    }, [dropdown, isOpen, menu]);
+        height = isOpen ? `${menuH + dropdownH}px` : `${menuH}px`;
+    }
 
     // Event listeners
-    const onDikataIconClick = () => {};
-
-    const onBurgerClick = () => {
+    const onBurgerClick = useCallback(() => {
         setIsOpen(p => !p);
-    };
+    }, []);
 
     return (
         <nav
@@ -48,7 +43,6 @@ const Navbar = ({ links }) => {
             <NavbarMenu
                 ref={menuRef}
                 onBurgerClick={onBurgerClick}
-                onDikataIconClick={onDikataIconClick}
             />
 
             <NavbarDropdown
@@ -59,4 +53,4 @@ const Navbar = ({ links }) => {
     );
 };
 
-export default Navbar;
+export default memo(Navbar);
