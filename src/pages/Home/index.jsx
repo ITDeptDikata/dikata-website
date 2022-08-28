@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <main>
             <section className="from-yellow-to-white relative bg-gradient-to-b">
-                <Wave className="absolute -top-20 -right-20 w-full rotate-180" />
+                <Wave className="absolute -top-20 -right-20 max-h-44 w-full rotate-180" />
 
                 <div className="container  mx-auto flex flex-col gap-5 px-5 pt-9 pb-3">
                     <HomeHero />
@@ -25,11 +25,11 @@ const Home = () => {
                     </TextSection>
                 </div>
 
-                <Wave className="absolute -bottom-1 left-0 w-full" />
+                <Wave className="absolute -bottom-1 left-0 max-h-64 w-full" />
             </section>
 
             <section className="from-yellow-to-white relative bg-gradient-to-t">
-                <Wave className="absolute -top-1 right-0 w-full rotate-180" />
+                <Wave className="absolute -top-1 right-0 max-h-64 w-full rotate-180" />
 
                 <div className="container mx-auto flex flex-col gap-5 px-5 pt-3 pb-9">
                     <DikataMissions />
