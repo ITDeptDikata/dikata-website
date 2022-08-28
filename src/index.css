@@ -10,6 +10,10 @@
     .text-body {
         @apply font-heading text-[0.9375rem] font-normal leading-5;
     }
+
+    .from-yellow-to-white {
+        @apply from-brand-50 to-white-50;
+    }
 }
 
 @layer utilities {
