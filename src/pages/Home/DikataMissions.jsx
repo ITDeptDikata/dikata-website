@@ -10,7 +10,7 @@ const ListItem = ({ children }) => (
 
 const DikataMissions = () => {
     return (
-        <section>
+        <section className="z-10">
             <h2 className="text-h2 mb-[0.4375rem]">Misi Kami</h2>
             <ul className="text-body space-y-4">
                 <ListItem>

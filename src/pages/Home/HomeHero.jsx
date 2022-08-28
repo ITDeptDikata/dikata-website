@@ -5,7 +5,7 @@ const WelcomeCard = () => (
 );
 
 const HomeHero = () => (
-    <header className="flex flex-col gap-[0.4375rem]">
+    <header className="z-10 flex flex-col gap-[0.4375rem]">
         <WelcomeCard />
 
         <div>

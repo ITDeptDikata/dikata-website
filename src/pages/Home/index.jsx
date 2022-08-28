@@ -1,12 +1,15 @@
 import TextSection from "../../components/Layouts/TextSection";
+import Wave from "../../components/Shapes/Wave";
 import DikataMissions from "./DikataMissions";
 import HomeHero from "./HomeHero";
 
 const Home = () => {
     return (
         <main>
-            <section className="from-yellow-to-white bg-gradient-to-b">
-                <div className="container mx-auto flex flex-col gap-5 px-5 pt-9 pb-3">
+            <section className="from-yellow-to-white relative bg-gradient-to-b">
+                <Wave className="absolute -top-20 -right-20 w-full rotate-180" />
+
+                <div className="container  mx-auto flex flex-col gap-5 px-5 pt-9 pb-3">
                     <HomeHero />
 
                     <TextSection title={"Tentang Kami"}>
@@ -21,9 +24,13 @@ const Home = () => {
                         yang bersifat edukatif, inovatif, dan kontributif.
                     </TextSection>
                 </div>
+
+                <Wave className="absolute -bottom-1 left-0 w-full" />
             </section>
 
-            <section className="from-yellow-to-white bg-gradient-to-t">
+            <section className="from-yellow-to-white relative bg-gradient-to-t">
+                <Wave className="absolute -top-1 right-0 w-full rotate-180" />
+
                 <div className="container mx-auto flex flex-col gap-5 px-5 pt-3 pb-9">
                     <DikataMissions />
 
