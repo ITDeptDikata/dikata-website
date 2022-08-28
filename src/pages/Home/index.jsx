@@ -5,7 +5,7 @@ import HomeHero from "./HomeHero";
 const Home = () => {
     return (
         <main>
-            <section className="bg-brand">
+            <section className="from-yellow-to-white bg-gradient-to-b">
                 <div className="container mx-auto flex flex-col gap-5 px-5 pt-9 pb-3">
                     <HomeHero />
 
@@ -23,7 +23,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="bg-brand">
+            <section className="from-yellow-to-white bg-gradient-to-t">
                 <div className="container mx-auto flex flex-col gap-5 px-5 pt-3 pb-9">
                     <DikataMissions />
 
