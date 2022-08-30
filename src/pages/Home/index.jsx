@@ -1,6 +1,7 @@
 import TextSection from "../../components/Layouts/TextSection";
 import Wave from "../../components/Shapes/Wave";
 import DikataMissions from "./DikataMissions";
+import DikataValue from "./DikataValue";
 import HomeHero from "./HomeHero";
 
 const Home = () => {
@@ -34,7 +35,7 @@ const Home = () => {
                 <div className="container mx-auto flex flex-col gap-5 px-5 pt-3 pb-9">
                     <DikataMissions />
 
-                    {/* TODO add dikata value's */}
+                    <DikataValue />
                 </div>
             </section>
         </main>
