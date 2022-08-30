@@ -12,7 +12,13 @@ module.exports = {
             },
             colors: {
                 brand: {
+                    50: "#FFCC00",
+                    200: "#FFDE59",
                     DEFAULT: "#FFD600",
+                },
+                white: {
+                    DEFAULT: "#FFF",
+                    50: "#F8F8F8",
                 },
             },
         },
