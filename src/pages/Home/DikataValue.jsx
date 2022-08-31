@@ -25,44 +25,44 @@ const DikataValue = () => {
             <h2 className="text-h2 mb-[0.4375rem]">Dikata's Values</h2>
             <ul className="text-body space-y-4">
                 <ListItem>
-                    <ListImage img="L_word" />
-                    <article className="flex flex-col font-bonanova">
+                    <ListImage img="l-letter" />
+                    <div className="flex flex-col font-bonanova">
                         <ListHeader>Learning together & forever learning</ListHeader>
                         <ListDescription>
                             setiap tim mengutamakan nilai belajar setiap proses yang
                             dilalui bersama.
                         </ListDescription>
-                    </article>
+                    </div>
                 </ListItem>
                 <ListItem>
-                    <ListImage img="E_word" />
-                    <article className="flex flex-col font-bonanova">
+                    <ListImage img="e-letter" />
+                    <div className="flex flex-col font-bonanova">
                         <ListHeader>Earnest but stay have fun</ListHeader>
                         <ListDescription>
                             menciptakan ekosistem tim yang menyenangkan diantara
                             kesungguhan yang ada.
                         </ListDescription>
-                    </article>
+                    </div>
                 </ListItem>
                 <ListItem>
-                    <ListImage img="A_word" />
-                    <article className="flex flex-col font-bonanova">
+                    <ListImage img="a-letter" />
+                    <div className="flex flex-col font-bonanova">
                         <ListHeader>Adaptive to understanding</ListHeader>
                         <ListDescription>
                             adaptasi yang baik mampu menciptakan suasana tim yang
                             penuh dengan empati.
                         </ListDescription>
-                    </article>
+                    </div>
                 </ListItem>
                 <ListItem>
-                    <ListImage img="D_word" />
-                    <article className="flex flex-col font-bonanova">
+                    <ListImage img="d-letter" />
+                    <div className="flex flex-col font-bonanova">
                         <ListHeader>Deliver trust and work be honestly</ListHeader>
                         <ListDescription>
                             kesuksesan dalam berkinerja akan tercapai dengan modal
                             saling percaya dan jujur.
                         </ListDescription>
-                    </article>
+                    </div>
                 </ListItem>
             </ul>
         </section>
