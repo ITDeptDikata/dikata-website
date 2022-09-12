@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "./components/Footer/Footer";
+import Programs from "./components/Programs/Programs";
 
 const App = () => {
-    return <Footer />;
+    return <Programs />;
 };
 
 export default App;
