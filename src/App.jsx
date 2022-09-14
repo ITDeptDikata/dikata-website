@@ -23,7 +23,6 @@ const App = () => {
                         index
                         element={<Home />}
                     />
-                    <Route element={<Teams />} />
                 </Routes>
             </Suspense>
         </>
