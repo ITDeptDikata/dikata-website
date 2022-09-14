@@ -1,12 +1,11 @@
 import React from "react";
+import AchievementsHeader from "./AchievementsHeader";
 import AchievementsList from "./AchievementsList";
 
 const Achievements = () => {
     return (
         <section className=" from-yellow-to-white bg-gradient-to-b">
-            <h2 className="text-h2 mb-[0.4375rem] text-center">
-                Dikata Achievements
-            </h2>
+            <AchievementsHeader />
             <AchievementsList />
         </section>
     );
