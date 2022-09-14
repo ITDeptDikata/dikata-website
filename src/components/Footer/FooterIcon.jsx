@@ -2,7 +2,7 @@ import React from "react";
 
 const IconList = ({ img }) => (
     <img
-        src={`images/${img}.svg`}
+        src={`images/footer/${img}.svg`}
         className="h-[50px] w-[50px]"
     />
 );

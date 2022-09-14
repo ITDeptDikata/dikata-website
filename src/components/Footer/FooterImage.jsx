@@ -5,7 +5,7 @@ const FooterImage = () => {
         <div className="relative w-full bg-[url('/images/footer-overlay.png')] bg-cover bg-[position:100%] bg-no-repeat">
             <figure className="z-10 mx-4">
                 <img
-                    src="images/footer-image.png"
+                    src="images/footer/footer-image.png"
                     alt="team"
                     className="mx-auto h-auto min-w-[200px] pt-4"
                 />
