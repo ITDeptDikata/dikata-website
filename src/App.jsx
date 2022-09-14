@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router";
 import Navbar from "./components/Navbar";
 
 const Home = React.lazy(() => import("./pages/Home"));
+const Teams = React.lazy(() => import("./pages/Teams"));
 
 const App = () => {
     return (
@@ -22,6 +23,7 @@ const App = () => {
                         index
                         element={<Home />}
                     />
+                    <Route element={<Teams />} />
                 </Routes>
             </Suspense>
         </>
