@@ -3,8 +3,11 @@ import TeamsItem from "./TeamsItem";
 const TeamsList = ({ members }) => {
     return (
         <ul className="flex flex-col">
-            {members.map(member => (
-                <TeamsItem member={member} />
+            {members.map((member, i) => (
+                <TeamsItem
+                    key={i}
+                    member={member}
+                />
             ))}
         </ul>
     );
