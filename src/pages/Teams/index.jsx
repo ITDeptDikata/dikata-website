@@ -4,7 +4,7 @@ import { members } from "../../test/teamsData";
 
 const Teams = () => {
     return (
-        <section>
+        <section id="team">
             <TeamsHeader />
             <TeamsList members={members} />
         </section>
