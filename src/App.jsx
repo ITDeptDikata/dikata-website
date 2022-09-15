@@ -1,17 +1,31 @@
-<<<<<<< HEAD
 import React, { Suspense } from "react";
 import { Route, Routes } from "react-router";
 import Navbar from "./components/Navbar";
 
 const Home = React.lazy(() => import("./pages/Home"));
-const Teams = React.lazy(() => import("./pages/Teams"));
-=======
-import React from "react";
-import Achievements from "./components/Achievements/Achievements";
->>>>>>> feat/achievements
 
 const App = () => {
-    return <Achievements />;
+    return (
+        <>
+            {/* TODO complete the links once all designs are finished */}
+            <Navbar
+                links={[
+                    { href: "/", title: "Home" },
+                    { href: "/about", title: "About" },
+                    { href: "/members", title: "Members" },
+                ]}
+            />
+
+            <Suspense fallback={<div>Loading...</div>}>
+                <Routes>
+                    <Route
+                        index
+                        element={<Home />}
+                    />
+                </Routes>
+            </Suspense>
+        </>
+    );
 };
 
 export default App;

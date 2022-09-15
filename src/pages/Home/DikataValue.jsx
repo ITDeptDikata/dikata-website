@@ -1,5 +1,3 @@
-import { memo } from "react";
-
 const ListImage = ({ img }) => (
     <img
         src={`images/${img}.png`}
@@ -21,8 +19,8 @@ const ListItem = ({ children }) => (
 
 const DikataValue = () => {
     return (
-        <section className="z-10">
-            <h2 className="text-h2 mb-[0.4375rem]">Dikata's Values</h2>
+        <section className="z-10 mt-4">
+            <h2 className="text-h2 mb-[0.4375rem]">Dikata&#39;s Values</h2>
             <ul className="text-body space-y-4">
                 <ListItem>
                     <ListImage img="l-letter" />
