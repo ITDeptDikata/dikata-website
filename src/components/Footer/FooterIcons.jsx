@@ -12,7 +12,7 @@ const IconList = ({ img, href }) => (
     </a>
 );
 
-const FooterIcon = () => {
+const FooterIcons = () => {
     return (
         <ul className="mx-[4.375rem] flex justify-around pt-[3.75em] pb-[1.875em]">
             <IconList
@@ -35,4 +35,4 @@ const FooterIcon = () => {
     );
 };
 
-export default FooterIcon;
+export default FooterIcons;
