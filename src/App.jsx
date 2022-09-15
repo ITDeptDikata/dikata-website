@@ -10,9 +10,9 @@ const App = () => {
             {/* TODO complete the links once all designs are finished */}
             <Navbar
                 links={[
-                    { href: "/", title: "Home" },
-                    { href: "/about", title: "About" },
-                    { href: "/members", title: "Members" },
+                    { href: "/#root", title: "Beranda" },
+                    { href: "/#about", title: "Tentang Kami" },
+                    { href: "/#team", title: "Tim Kami" },
                 ]}
             />
 

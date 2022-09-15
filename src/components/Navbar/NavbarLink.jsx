@@ -1,6 +1,5 @@
 import { memo } from "react";
-import { NavLink } from "react-router-dom";
-
+import { HashLink } from "react-router-hash-link";
 /**
  * @typedef NavbarLinkProps
  *
@@ -15,12 +14,13 @@ import { NavLink } from "react-router-dom";
  */
 const NavbarLink = ({ children, href }) => (
     <li className="flex list-none items-center justify-center py-4 font-sans text-4xl font-extrabold">
-        <NavLink
+        <HashLink
+            smooth
             className={({ isActive }) => (isActive ? "text-brand" : "")}
             to={href}
         >
             {children}
-        </NavLink>
+        </HashLink>
     </li>
 );
 
