@@ -2,7 +2,7 @@ import React from "react";
 
 const FooterImage = () => {
     return (
-        <div className="relative w-full bg-[url('/images/footer-overlay.png')] bg-cover bg-[position:100%] bg-no-repeat">
+        <div className="relative w-full bg-[url('/images/footer/footer-overlay.png')] bg-cover bg-[position:100%] bg-no-repeat">
             <figure className="z-10 mx-4">
                 <img
                     src="images/footer/footer-image.png"

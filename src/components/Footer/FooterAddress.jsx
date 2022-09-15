@@ -11,7 +11,7 @@ const FooterAddress = () => {
             <hr className="mr-[1.8375rem] mb-5 border-2 border-brand" />
             <figure className="flex items-center pb-[1.92rem]">
                 <img
-                    src="images/footer/dikata-logo-circle.png"
+                    src="images/dikata-logo-circle.png"
                     alt="dikata-logo"
                 />
                 <figcaption className="ml-[0.3175rem] font-inter font-bold text-white">
