@@ -21,7 +21,7 @@ import { DIKATA_SERVER_BASE_URL } from "../env";
 const endpoint = `${DIKATA_SERVER_BASE_URL}/achievements`;
 
 /**
- *
+ * @deprecated Dikata Achievement backend implementation is postponed
  * @param {number=} quant
  * @param {boolean=} recent
  *
@@ -38,7 +38,7 @@ export const getDikataAchievements = async (quant = 10, recent = false) => {
 };
 
 /**
- *
+ * @deprecated Dikata Achievement backend implementation is postponed
  * @param {string} id
  *
  * @returns {Promise<DikataAchievement>} resolves into a {@link DikataAchievement} with the `id`.
