@@ -23,7 +23,7 @@ const Programs = () => {
     };
 
     return (
-        <section className="from-yellow-to-white mt-8 h-[600px] bg-gradient-to-t pt-[0.4375em]">
+        <section className="from-yellow-to-white  h-[600px] bg-gradient-to-t pt-[0.4375em]">
             <ProgramsHeader />
             <ProgramsSlider
                 datas={programsData}
