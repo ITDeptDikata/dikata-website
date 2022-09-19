@@ -1,6 +1,9 @@
 const DikatMagazine = () => {
     return (
-        <section className="flex flex-col space-y-5 bg-brand-50 px-[1.3125em]">
+        <section
+            className="flex flex-col space-y-5 bg-brand-50 px-[1.3125em]"
+            id="dikata-magazine"
+        >
             <h2 className="text-h2">Dikata Magazine</h2>
             <img
                 src="/images/dikata-magazine-cover.png"

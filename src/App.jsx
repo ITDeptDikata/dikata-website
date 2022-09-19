@@ -12,6 +12,7 @@ const App = () => {
                 links={[
                     { href: "/#root", title: "Beranda" },
                     { href: "/#about", title: "Tentang Kami" },
+                    { href: "/#dikata-magazine", title: "Dikata Menyapa" },
                     { href: "/#team", title: "Tim Kami" },
                 ]}
             />

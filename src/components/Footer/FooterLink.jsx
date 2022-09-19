@@ -21,6 +21,7 @@ const FooterLink = () => {
                 <LinkItem to={"/#programs"}>Kegiatan Kami</LinkItem>
                 <LinkItem to={"/#missions"}>Visi & Misi Kami</LinkItem>
                 <LinkItem to={"/#achievements"}>Pencapaian Kami</LinkItem>
+                <LinkItem to={"/#dikata-magazine"}>Dikata Menyapa</LinkItem>
             </ul>
             <h3 className="mt-[1.8375rem] font-sans text-lg text-brand">
                 Kerja Sama
