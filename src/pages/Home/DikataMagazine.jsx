@@ -3,7 +3,7 @@ const DikatMagazine = () => {
         <section className="flex flex-col space-y-5 bg-brand-50 px-[1.3125em]">
             <h2 className="text-h2">Dikata Magazine</h2>
             <img
-                src="/images/dikata_magazine_cover.png"
+                src="/images/dikata-magazine-cover.png"
                 alt="dikata magazine cover"
                 className="mx-auto w-72 rounded-lg drop-shadow-xl"
             />
