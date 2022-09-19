@@ -8,10 +8,18 @@ module.exports = {
             fontFamily: {
                 heading: ["Hind Madurai", ...defaultTheme.fontFamily.sans],
                 sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+                inter: ["Inter", ...defaultTheme.fontFamily.sans],
+                bonanova: ["Bona Nova", ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 brand: {
+                    50: "#FFCC00",
+                    200: "#FFDE59",
                     DEFAULT: "#FFD600",
+                },
+                white: {
+                    DEFAULT: "#FFF",
+                    50: "#F8F8F8",
                 },
             },
         },
