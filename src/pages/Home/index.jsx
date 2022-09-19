@@ -8,6 +8,7 @@ import HomeHero from "./HomeHero";
 import Programs from "../Programs";
 import Teams from "../Teams";
 import Footer from "../../components/Footer";
+import DikatMagazine from "./DikataMagazine";
 
 const Home = () => {
     return (
@@ -64,6 +65,7 @@ const Home = () => {
                 <Programs />
             </SectionYellowGradient>
 
+            <DikatMagazine />
             <Teams />
             <Footer />
         </main>
