@@ -14,7 +14,7 @@ const IconList = ({ img, href }) => (
 
 const FooterIcons = () => {
     return (
-        <ul className="mx-[4.375rem] flex justify-around pt-[3.75em] pb-[1.875em]">
+        <ul className="flex justify-around pt-[3.75em] pb-[1.875em] md:mx-[4.375rem]">
             <IconList
                 img="footer-instagram"
                 href="https://www.instagram.com/dikataorg/"
